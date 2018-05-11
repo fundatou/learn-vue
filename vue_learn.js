@@ -5,7 +5,7 @@ function cb (val) {
 class Vue {
     constructor(options) {
         this._data = options.data;
-        observer(this._data);
+        this.observer(this._data);
     }
 }
 
@@ -15,7 +15,7 @@ Vue.prototype.observer = function (value) {
     }
 
     Object.keys(value).forEach((key) => {
-        definneReactive(value, key, value[key]);
+        this.definneReactive(value, key, value[key]);
     });
 }
 
