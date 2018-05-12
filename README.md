@@ -1,5 +1,5 @@
 
-从掘金上的文章收集来的demo，只做个人学习之用。
+从掘金上的文章收集来的demo，只做个人学习之用，不保证正确性。
 
 [双向绑定](https://juejin.im/post/5acd0c8a6fb9a028da7cdfaf)
 
